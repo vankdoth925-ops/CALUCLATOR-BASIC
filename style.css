@@ -1,0 +1,44 @@
+*{
+        margin: 0px;
+        padding: 0px;
+
+    }
+    body{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+        background-color: darkslategray;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    .container{
+        background-color: aqua;
+        width: 120px;
+        height: 280px;
+        border: black;
+        border-radius: 10px;
+        margin: 100px;
+        padding: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        box-shadow: 5px 5px 5px 5px;
+    }
+    #display{
+        height: 65px;
+        width: 202px;
+        background-color: antiquewhite;
+        border-radius: 5px;
+        font-size: medium;
+
+
+    }
+    .buttons{
+        height: 230px;
+        width: 203px;
+        display: grid;
+        grid-template-columns: repeat(4 ,1fr);
+    }
+    .buttons button{
+        border-radius: 5px;
+    }
